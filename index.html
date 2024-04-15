@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div class="header">
+    <div class="logo-line">
+        <img src="src/image/logo (2).png" alt="">
+        <div class="navbar">
+            <ul>
+                <li>HOME</li>
+                <li>SHOP</li>
+                <li> ELEMENTS</li>
+                <li>BLOG</li>
+                <li>PAGES</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="header-control">
+        <div class="lang"><img src="src/image/en (1).png" alt="">English<i class="fa-solid fa-angle-down"></i></div>  
+        <div class="money">USD<i class="fa-solid fa-angle-down"></i></div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"><sup>3</sup></i>
+      </div>  
+ </div>   
+ <div class="img">
+ </div>
+ <div class="banner-wrapper">
+    <h1>Shop</h1>
+    <div class="line">
+    </div>
+    <div class="trial">
+    <span>Home</span>
+    <i class="fa-solid fa-angle-right"></i>
+    <span id="dif">Shop</span>
+    </div>
+ </div>
+ <div class="main-container">
+    <div class="m-con-left">
+        <div class="input">
+            <input type="text" placeholder="Search product">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <h2>FILTER BY PRICE</h2>
+        <div class="price-line">
+            <span></span>
+            <div class="center-line"></div>
+            <span></span>
+        </div>
+        <div class="price-slider">
+            <div class="from">$100 </div>
+            <div class="from">$800 </div>
+            <div class="from-dif">FILTER </div>
+
+        </div>
+        <h2>FILTER BY COLOR</h2>
+        <div class="checker">
+            <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                   <i class="fa-solid fa-circle-check"></i>
+                   <span>Black</span>
+                </div>  
+                <div class="right">(4)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #3155e2;"></i>
+                   <i class="fa-solid fa-circle-check" style="color: #3155e2;" ></i>
+                   <span>Blue</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #49aa51;"></i>
+                   <i class="fa-solid fa-circle-check" style="color: #49aa51;" ></i>
+                   <span>Green</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #ff63cb;"></i>
+                   <i class="fa-solid fa-circle-check" style="color: #ff63cb;" ></i>
+                   <span>Pink</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #a825ae;"></i>
+                   <i class="fa-solid fa-circle-check" style="color:#a825ae;" ></i>
+                   <span>Purple</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #db2b00;"></i>
+                   <i class="fa-solid fa-circle-check" style="color:#db2b00;" ></i>
+                   <span>Red</span>
+                </div>  
+                <div class="right">(5)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #dedddd;"></i>
+                   <i class="fa-solid fa-circle-check" style="color:#dedddd;" ></i>
+                   <span>White</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" style="color: #e8e120;"></i>
+                   <i class="fa-solid fa-circle-check" style="color:#e8e120;" ></i>
+                   <span>Yellow</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+        </div>
+        <h2>FILTER BY SIZE</h2>
+        <div class="checker-copy">
+            <div class="check-line">
+                <div class="left">
+                   <i id="dif" class="fa-solid fa-circle"  ></i>
+                   
+                   <span>XS</span>
+                </div>  
+                <div class="right">(4)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                 <span>S</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                   <span>M</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                    <span>L</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                    <span>XL</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                    <span>XXL</span>
+                </div>  
+                <div class="right">(5)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                    <span>3XL</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle""></i>
+                    <span>$XL</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+        </div>
+        <h2>PRODUCT CATEGORIES</h2>
+        <div class="checker-copy">
+            <div class="check-line">
+                <div class="left">
+                   <i id="dif" class="fa-solid fa-circle"  ></i>
+                   
+                   <span>Light</span>
+                </div>  
+                <div class="right">(4)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                 <span>Chair</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                   <span>Table</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                <span>Bed</span>
+                </div>  
+                <div class="right">(3)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                    <span>New arrivals</span>
+                </div>  
+                <div class="right">(1)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle"></i>
+                    <span>Lamp</span>
+                </div>  
+                <div class="right">(5)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle" ></i>
+                    <span>Specials</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+               <div class="check-line">
+                <div class="left">
+                   <i class="fa-solid fa-circle""></i>
+                    <span>Sofas</span>
+                </div>  
+                <div class="right">(2)</div>
+               </div>
+        </div>
+        <img src="src/image/widget-banner.jpg" alt="">
+    </div>
+    <div class="m-con-right">
+        <div class="line-1">
+            <div class="box">
+                <div class="box-1"><i class="fa-solid fa-cubes-stacked"></i></div>
+                <div class="box-2"><i class="fa-solid fa-list"></i></div>
+            </div>
+            <div class="selector">
+                <select name="" id="" >
+                    <option value="">Default sarting </option>
+                    <option value="">something</option>
+                    <option value="">something</option>
+                    <option value="">something</option>
+                </select>
+                <select   name="" id="dif" >
+                    <option value="">Show 12 </option>
+                    <option value="">something</option>
+                    <option value="">something</option>
+                    <option value="">something</option>
+                </select>
+            </div>
+        </div>
+        <div class="products">
+            <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro161-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Moss Sofa</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro1211-2-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Prix Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro101-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro171-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro41-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro181-2-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro83-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro141-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro61-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro71-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro191-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+               <div class="product-1">
+                <div class="green-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="new">
+                    <span class="onnew"> NEW</span>
+                </div>
+                <img src="src/image/apro171-1-600x778.jpg" alt="" width="270px" height="270px">
+                <div class="prd-info">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Tulip Chair</h3>
+                    <span>$79.00-$139.00</span>
+                </div>
+               </div>
+
+            </div>
+            <div class="line-3">
+                <div class="left-boxs">
+                 <div class="box1">1</div>
+                 <div class="box2">2</div>
+                 <div class="box2"><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+                <div class="right-box">
+                    Showing 1–12 of 20 results
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="section-09">
+    <h3>Newsletter</h3>
+    <h4>Get Discount 30% Off</h4>
+    <p>Suspendisse netus proin eleifend fusce sollicitudin potenti vel magnis nascetur</p>
+    <div class="intp"><input type="email" placeholder="Enter your email...">
+    <button >SUBSCRIBE</button>
+</div>
+   </div>
+<div class="footer">
+    <p>© Copyright 2020 Furgan. All Rights Reserved.</p>
+    <div class="social-m">
+      <div class="fb"><i class="fa-brands fa-facebook-f"></i></div> 
+      <div class="fb"><i class="fa-brands fa-instagram"></i></div>  
+      <div class="fb"><i class="fa-brands fa-twitter"></i></div>  
+      <div class="fb"><i class="fa-brands fa-pinterest-p"></i></div>   
+    </div>
+</div>
+</body>
+</html>
